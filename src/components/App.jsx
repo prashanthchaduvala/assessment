@@ -2,13 +2,14 @@
 
 // import { Pagination } from 'antd';
 
+// installed third party library
 import DataTable from 'react-data-table-component';
 
 import data from '../mock/data.json'
 
 console.log(data)
 
-
+// fetch data from data.json through posts api 
 const columns = [
   {
       name: 'Title',
